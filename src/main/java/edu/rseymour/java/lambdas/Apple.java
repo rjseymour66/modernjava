@@ -1,9 +1,18 @@
 package edu.rseymour.java.lambdas;
 
+import edu.rseymour.java.behaviorparameterization.predicates.AppleRedAndHeavyPredicate;
+
 public class Apple {
 
     private int weight = 0;
     private Color color;
+
+    public Apple() {
+    }
+
+    public Apple(int weight) {
+        this.weight = weight;
+    }
 
     public Apple(int weight, Color color) {
         this.weight = weight;

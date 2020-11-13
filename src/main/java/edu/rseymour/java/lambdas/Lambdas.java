@@ -6,6 +6,12 @@ import java.util.List;
 
 import static edu.rseymour.java.behaviorparameterization.Filters.filterApples;
 
+/**
+ * Lambda expressions let you provide the implemenation of the abstract method of a
+ * functional interface directly inline and treat the whole expression as an instance
+ * of a functional interface.
+ */
+
 public class Lambdas {
 
     public static void main(String[] args) {
@@ -19,6 +25,6 @@ public class Lambdas {
                 new Apple(155, Color.GREEN),
                 new Apple(120, Color.RED)
         );
-        
+
     }
 }
