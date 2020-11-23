@@ -1,8 +1,8 @@
-package edu.rseymour.java;
+package edu.rseymour.java.streams;
 
 
 import java.util.List;
-import static edu.rseymour.java.Dish.menu;
+import static edu.rseymour.java.streams.Dish.menu;
 import static java.util.stream.Collectors.toList;
 
 public class HighCalorieDishNames {

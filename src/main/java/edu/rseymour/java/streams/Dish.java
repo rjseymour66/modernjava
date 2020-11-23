@@ -1,7 +1,8 @@
-package edu.rseymour.java;
+package edu.rseymour.java.streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Dish {
 
